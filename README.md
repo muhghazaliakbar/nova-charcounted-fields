@@ -3,7 +3,7 @@ Text and textarea fields with a character counter for Laravel Nova.
 
 ![Image of character counter](docs/screenshot.jpg)
 
-You can use the text and textarea fields with charactercounters on you Nova model. The max number of characters aren't enforced, but just encouraged with warning colors and the counter. (You could enforce the max number of characters with Nova's build in _rules_).
+You can use the text and textarea fields with charactercounters on you Nova model. The max number of characters aren't enforced, but just encouraged with warning colors and the counter. (You could enforce the max number of characters with Nova's built in _rules_).
 
 ```php
 CharcountedText::make('Meta title')
