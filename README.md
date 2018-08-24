@@ -16,4 +16,4 @@ CharcountedText::make('Meta title')
 ```
 
 The maxChars and warningAt are both optional. The color of the counter will change when the max or warningAt limit is reached.
-![Image of character counter with indication](docs/screenshot-errros.jpg)
+![Image of character counter with indication](docs/screenshot-errors.jpg)
