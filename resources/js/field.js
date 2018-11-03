@@ -1,9 +1,9 @@
 Nova.booting((Vue, router) => {
-    Vue.component('index-charcounted-text', require('./components/CharcountedText/IndexField'));
-    Vue.component('detail-charcounted-text', require('./components/CharcountedText/DetailField'));
-    Vue.component('form-charcounted-text', require('./components/CharcountedText/FormField'));
+    Vue.component('index-text-counted', require('./components/TextCounted/IndexField'));
+    Vue.component('detail-text-counted', require('./components/TextCounted/DetailField'));
+    Vue.component('form-text-counted', require('./components/TextCounted/FormField'));
 
-    Vue.component('index-charcounted-textarea', require('./components/CharcountedTextArea/IndexField'));
-    Vue.component('detail-charcounted-textarea', require('./components/CharcountedTextArea/DetailField'));
-    Vue.component('form-charcounted-textarea', require('./components/CharcountedTextArea/FormField'));
+    Vue.component('index-textarea-counted', require('./components/TextareaCounted/IndexField'));
+    Vue.component('detail-textarea-counted', require('./components/TextareaCounted/DetailField'));
+    Vue.component('form-textarea-counted', require('./components/TextareaCounted/FormField'));
 })

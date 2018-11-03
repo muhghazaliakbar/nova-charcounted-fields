@@ -2,13 +2,13 @@
 
 namespace ElevateDigital\CharcountedFields;
 
-class CharcountedText extends CharcountedField
+class TextareaCounted extends FieldCounted
 {
 
     /**
      * The field's component.
      * @var string
      */
-    public $component = 'charcounted-text';
+    public $component = 'textarea-counted';
 
 }

@@ -10,10 +10,10 @@ You can require this package using composer:
 
 You can add the field with a resolver as follows:
 ```
-use ElevateDigital\CharcountedFields\CharcountedText;
-use ElevateDigital\CharcountedFields\CharcountedTextarea;
+use ElevateDigital\CharcountedFields\TextCounted;
+use ElevateDigital\CharcountedFields\TextareaCounted;
 
-CharcountedText::make('Meta title')
+TextCounted::make('Meta title')
 ```
 
 ![Image of character counter](docs/screenshot.jpg)
@@ -21,11 +21,11 @@ CharcountedText::make('Meta title')
 You can use the text and textarea fields with charactercounters on you Nova model. The max number of characters aren't enforced, but just encouraged with warning colors and the counter. (You could enforce the max number of characters with Nova's built in _rules_).
 
 ```php
-CharcountedText::make('Meta title')
+TextCounted::make('Meta title')
     ->maxChars(60)
     ->warningAt(50),
 
-CharcountedTextarea::make('Meta description')
+TextareaCounted::make('Meta description')
     ->maxChars(160)
     ->warningAt(150),
 ```
