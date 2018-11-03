@@ -4,7 +4,7 @@ namespace ElevateDigital\CharcountedFields;
 
 use Laravel\Nova\Fields\Field;
 
-class CharcountedField extends Field
+class FieldCounted extends Field
 {
 
     public function maxChars(int $characters)
