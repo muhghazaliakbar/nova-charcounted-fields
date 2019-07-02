@@ -2,10 +2,12 @@
 
 namespace Muhghazaliakbar\CharcountedFields;
 
+use Laravel\Nova\Fields\Expandable;
 use Laravel\Nova\Fields\Field;
 
 class FieldCounted extends Field
 {
+    use Expandable;
 
     public function maxChars(int $characters)
     {
