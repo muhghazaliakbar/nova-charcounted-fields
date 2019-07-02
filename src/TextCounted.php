@@ -1,6 +1,6 @@
 <?php
 
-namespace ElevateDigital\CharcountedFields;
+namespace Muhghazaliakbar\CharcountedFields;
 
 class TextCounted extends FieldCounted
 {
@@ -10,5 +10,4 @@ class TextCounted extends FieldCounted
      * @var string
      */
     public $component = 'text-counted';
-
 }

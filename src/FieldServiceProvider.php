@@ -1,6 +1,6 @@
 <?php
 
-namespace ElevateDigital\CharcountedFields;
+namespace Muhghazaliakbar\CharcountedFields;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

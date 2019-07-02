@@ -1,6 +1,6 @@
 <?php
 
-namespace ElevateDigital\CharcountedFields;
+namespace Muhghazaliakbar\CharcountedFields;
 
 class TextareaCounted extends FieldCounted
 {

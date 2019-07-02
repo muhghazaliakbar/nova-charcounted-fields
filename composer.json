@@ -1,5 +1,5 @@
 {
-    "name": "elevate-digital/nova-charcounted-fields",
+    "name": "muhghazaliakbar/nova-charcounted-fields",
     "description": "Text and textarea fields with a character counter.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ElevateDigital\\CharcountedFields\\": "src/"
+            "Muhghazaliakbar\\CharcountedFields\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ElevateDigital\\CharcountedFields\\FieldServiceProvider"
+                "Muhghazaliakbar\\CharcountedFields\\FieldServiceProvider"
             ]
         }
     },
